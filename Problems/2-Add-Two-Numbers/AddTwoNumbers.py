@@ -1,4 +1,4 @@
-from .ListNode import ListNode
+from ListNode import ListNode
 
 class Solution:
     def addTwoNumbers(self, l1, l2):
