@@ -6,6 +6,7 @@ import Packages.MedianOfTwoSortedArrays
 import Packages.LongestPalindromicSubstring
 import Packages.ZigzagConversion
 import Packages.ReverseInteger
+import Packages.StringToInteger
 
 if __name__ == "__main__":
     pass
