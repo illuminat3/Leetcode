@@ -3,6 +3,7 @@ class Solution:
         length = len(s)
         counting = False
         output = ""
+
         for i in range(0, length):
             if not s[i].isdigit():
                 if s[i] == " " and counting == False:
@@ -18,6 +19,5 @@ class Solution:
         
         if output == "" or output == "+" or output == "-":
             return 0
-        output = int(output)
         
-        return max(min(output, 2147483647), -2147483648)
+        return max(min(int(output), 2147483647), -2147483648)
