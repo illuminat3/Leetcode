@@ -21,4 +21,4 @@ class Solution:
         if output == "":
             return 0
 
-        return max(min(int(output), 2147483647), -2147483647)
+        return max(min(int(output), 2147483647), -2147483648)
