@@ -5,7 +5,7 @@ class Solution:
         output = ""
         for i in range(0, length):
             if not s[i].isdigit():
-                if s[i] == " ":
+                if s[i] == " " and counting == False:
                     continue
                 if (s[i] == "-" or s[i] == "+") and counting == False:
                     counting = True
