@@ -14,10 +14,10 @@ class Solution:
                     output += s[i]
                     counting = True
                     continue
-            
+                continue
             output += s[i]
             counting = True
-
+        
         if output == "":
             return 0
 
